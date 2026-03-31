@@ -26,9 +26,8 @@
 # Install dependencies
 npm install
 
-# Copy .env.example to .env and configure
+# Configure .env with your Supabase credentials
 # Run database migration in Supabase SQL Editor
-# See SETUP_GUIDE.md for detailed instructions
 
 # Start development server
 npm run dev
@@ -65,10 +64,8 @@ college-connect-main/
 **IMPORTANT**: Run the database migration before using the app:
 
 1. Go to Supabase Dashboard → SQL Editor
-2. Copy `supabase/migrations/20260401_complete_3tier_system.sql`
+2. Copy the migration SQL from `supabase/migrations/`
 3. Run in SQL Editor
-
-See [SETUP_GUIDE.md](./SETUP_GUIDE.md) for detailed instructions.
 
 ## 🧪 Testing
 
@@ -101,12 +98,6 @@ npm run test         # Run tests
 npm run lint         # Lint code
 ```
 
-## 📚 Documentation
-
-- [Setup Guide](./SETUP_GUIDE.md) - Complete setup instructions
-- [Fixes Applied](./FIXES_APPLIED.md) - Recent fixes and changes
-- [Implementation Summary](./IMPLEMENTATION_SUMMARY.md) - Feature details
-
 ## 🔧 Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite
@@ -117,7 +108,7 @@ npm run lint         # Lint code
 
 ## 📄 License
 
-MIT License - see [LICENSE](./LICENSE) file for details.
+MIT License
 
 ---
 

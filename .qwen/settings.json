@@ -7,7 +7,8 @@
       "Bash(npm install *)",
       "Bash(firebase *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git checkout *)"
     ]
   },
   "$version": 3
